@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>BondiCars – Prémium élmény</title>
+
+  <!-- Fonts (Inter ~ Apple-es hangulat) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="preload" as="image" href="images/szolgáltatas.png">
+
+
+  <!-- Styles -->
+  <link rel="icon" href="logo.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- NAVBAR -->
+  <header class="navbar" data-brand="BondiCars">
+    <div class="container nav-wrap">
+      <a href="#hero" class="brand" aria-label="Kezdőlap">
+        <img src="logo.png" alt="BondiCars logó" class="brand-logo">
+        <span class="brand-text">BondiCars</span>
+      </a>
+      <nav class="nav-links">
+        <a href="#hero" class="nav-link">Home</a>
+        <a href="#why" class="nav-link">Rólunk</a>
+        <a href="#services" class="nav-link">Szolgáltatásaink</a>
+        <a href="#work" class="nav-link">Autóink</a>
+        <a href="#pricing" class="nav-link">Áraink</a>
+        <a href="#contact" class="nav-link">Kapcsolat</a>
+      </nav>
+      <div class="lang-switch">
+        <button class="lang-btn" data-lang="hu" title="Magyar">🇭🇺</button>
+        <button class="lang-btn" data-lang="en" title="English">🇬🇧</button>
+      </div>
+    </div>
+  </header>
+
+  <main id="root">
+    <!-- HERO -->
+    <section id="hero" class="section hero">
+      <div class="hero-bg">
+        <!-- parallax layers -->
+        <div class="hero-layer hero-grad"></div>
+        <div class="hero-layer hero-noise"></div>
+      </div>
+
+      
+
+      <div class="container hero-inner">
+         <img src="logo.png" alt="BondiCars logo" class="hero-mark reveal">
+        <p class="eyebrow reveal">Bondi Cars</p>
+        <h1 class="hero-title reveal"> Az autózás új <span class="accent">élménye</span>, eladástól a vásárlásig!</h1>
+        <p class="hero-lead reveal"></p>
+        <div class="hero-cta reveal">
+          <a href="#why" class="btn btn-primary" data-scroll-to="#why">Ismerj meg minket</a>
+          
+        </div>
+      </div>
+    </section>
+
+    <!-- WHY (Üvegkártyák) -->
+    <section id="why" class="section">
+      <div class="container">
+        <h2 class="title center reveal">Miért válassz minket?</h2>
+        <div class="cards glass-grid">
+          <article class="glass reveal">
+            <h3>Letisztult folyamat</h3>
+            <p>Gördülékeny, gyors, mégis elegáns élmény – kompromisszumok nélkül.</p>
+          </article>
+          <article class="glass reveal">
+            <h3>Prémium minőség</h3>
+            <p>Modern anyagok, precíz kivitelezés és részletgazdag megjelenés.</p>
+          </article>
+          <article class="glass reveal">
+            <h3>Őszinte kommunikáció</h3>
+            <p>Transzparens árak, egyenes tájékoztatás és segítőkész csapat.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+<div class="section-divider"></div>
+
+
+    <!-- SERVICES -->
+    <section id="services" class="section alt section-why">
+      <div class="container">
+        <h2 class="title center reveal">Szolgáltatásaink</h2>
+        <div class="cards grid-3">
+          <article class="card reveal">
+            <h3>Teljes detail</h3>
+            <p>Interiőr & exteriőr mélytisztítás és védelem.</p>
+          </article>
+          <article class="card reveal">
+            <h3>Kerámia bevonat</h3>
+            <p>Hosszú távú védelem és extrém fény.</p>
+          </article>
+          <article class="card reveal">
+            <h3>Prémium szerviz</h3>
+            <p>Gyári előírások szerint, prémium alkatrészekkel.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <div class="section-divider-t"></div>
+
+    <!-- WORK -->
+    <section id="work" class="section">
+      <div class="container">
+        <h2 class="title center reveal">Autóink</h2>
+        <div class="gallery">
+          <div class="gal reveal"></div>
+          <div class="gal reveal"></div>
+          <div class="gal reveal"></div>
+          <div class="gal reveal"></div>
+          <div class="gal reveal"></div>
+          <div class="gal reveal"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PRICING -->
+    <section id="pricing" class="section alt">
+      <div class="container">
+        <h2 class="title center reveal">Áraink</h2>
+        <div class="pricing">
+          <div class="price-card reveal">
+            <h3>Essential</h3>
+            <div class="price">69 000 Ft</div>
+            <ul>
+              <li>Külső mosás</li>
+              <li>Beltér frissítés</li>
+              <li>Gyors védelem</li>
+            </ul>
+            <a href="#contact" class="btn btn-primary" data-scroll-to="#contact">Időpontot kérek</a>
+          </div>
+          <div class="price-card highlight reveal">
+            <h3>Premium</h3>
+            <div class="price">129 000 Ft</div>
+            <ul>
+              <li>Teljes detail</li>
+              <li>Kerámia spray védelem</li>
+              <li>Minőségellenőrzés</li>
+            </ul>
+            <a href="#contact" class="btn btn-primary" data-scroll-to="#contact">Időpontot kérek</a>
+          </div>
+          <div class="price-card reveal">
+            <h3>Elite</h3>
+            <div class="price">199 000 Ft</div>
+            <ul>
+              <li>Kerámia bevonat</li>
+              <li>Prémium belső kezelés</li>
+              <li>Utókövetés</li>
+            </ul>
+            <a href="#contact" class="btn btn-primary" data-scroll-to="#contact">Időpontot kérek</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section">
+      <div class="container grid-2">
+        <div class="stack reveal">
+          <h2 class="title">Kapcsolat</h2>
+          <p class="muted">Írj nekünk, és 24 órán belül válaszolunk.</p>
+          <ul class="list">
+            <li class="reveal">Email: hello@bondicars.hu</li>
+            <li class="reveal">Telefon: +36 30 000 0000</li>
+          </ul>
+          <div class="socials">
+  <a href="https://www.tiktok.com/@bondicars" aria-label="TikTok" target="_blank" rel="noopener">
+    <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+      <path d="M21 8.3a6.7 6.7 0 0 1-4.1-1.4v6.1a6.9 6.9 0 1 1-6.9-6.9c.3 0 .6 0 .9.1v3.1c-.3-.1-.6-.1-.9-.1a3.8 3.8 0 1 0 3.8 3.8V2h3.2a6.7 6.7 0 0 0 4 4.1z"/>
+    </svg>
+  </a>
+  <a href="https://www.instagram.com/bondicars" aria-label="Instagram" target="_blank" rel="noopener">
+    <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+      <path d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5zm5 5.5A4.5 4.5 0 1 0 16.5 12 4.5 4.5 0 0 0 12 7.5zm0 7.2A2.7 2.7 0 1 1 14.7 12 2.7 2.7 0 0 1 12 14.7zm5.1-7.8a1.2 1.2 0 1 0 1.2 1.2 1.2 1.2 0 0 0-1.2-1.2z"/>
+    </svg>
+  </a>
+  <a href="https://www.facebook.com/bondicars" aria-label="Facebook" target="_blank" rel="noopener">
+    <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+      <path d="M13 22v-8h3l.5-3H13V8.5c0-.9.3-1.5 1.6-1.5H17V4.2c-.3 0-1.2-.2-2.3-.2-2.3 0-3.7 1.3-3.7 3.8V11H8v3h3v8z"/>
+    </svg>
+  </a>
+</div>
+
+        </div>
+        <form class="form panel reveal" onsubmit="event.preventDefault(); alert('Köszönjük! Hamarosan jelentkezünk.');">
+          <label>Név<input required placeholder="Teljes név"></label>
+          <label>Email<input type="email" required placeholder="email@pelda.hu"></label>
+          <label>Üzenet<textarea rows="4" required placeholder="Miben segíthetünk?"></textarea></label>
+          <button class="btn btn-primary" type="submit">Küldés</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      © <span id="year"></span> BondiCars — Minden jog fenntartva.
+    </div>
+  </footer>
+
+  <!-- Lenis smooth scroll -->
+  <script src="https://unpkg.com/@studio-freight/lenis@latest/bundled/lenis.min.js"></script>
+  <script src="app.js"></script>
+
+<script>
+(() => {
+  if (window.__carsInit) return; // nehogy duplán fusson
+  window.__carsInit = true;
+
+  const GALLERY_SELECTOR = '#work .gallery'; // ha nálad más, itt állítsd
+  document.addEventListener('DOMContentLoaded', () => {
+    const grid = document.querySelector(GALLERY_SELECTOR);
+    if (!grid) { console.warn('Galéria konténer nem található:', GALLERY_SELECTOR); return; }
+
+    const LIMIT = 6; // ennyit mutatunk elsőre (a többire “Összes autó”)
+
+    // segédek
+    const fmtPrice = (n) => (!n && n!==0) ? '' : (Number(n).toLocaleString('hu-HU'));
+    const specLine = (sp = {}) => {
+      const bits = [];
+      if (sp.year) bits.push(String(sp.year));
+      if (sp.hp) bits.push(`${sp.hp} LE`);
+      if (sp.price_huf) bits.push(`${fmtPrice(sp.price_huf)} Ft`);
+      return bits.join(' • ');
+    };
+
+    // Lightbox
+    function openLightbox(car, startIndex = 0) {
+      let i = startIndex;
+      const lb = document.createElement('div');
+      lb.className = 'lightbox';
+      lb.innerHTML = `
+        <div class="frame">
+          <button class="close" aria-label="Bezárás">✕</button>
+          <div class="viewer">
+            <button class="nav prev" aria-label="Előző">‹</button>
+            <img class="img" alt="">
+            <button class="nav next" aria-label="Következő">›</button>
+          </div>
+          <div class="meta">
+            <h3>${car.title || ''}</h3>
+            <p class="muted">${car.subtitle || ''}</p>
+            <div class="specs"></div>
+          </div>
+          <div class="thumbs"></div>
+        </div>
+      `;
+
+      const img = lb.querySelector('.img');
+      const thumbs = lb.querySelector('.thumbs');
+      const specsBox = lb.querySelector('.specs');
+
+      // specifikációk (ha a cars.php/meta.json adja)
+      const sp = car.specs || {};
+      const rows = [];
+      if (sp.year) rows.push(`<b>Évjárat:</b> ${sp.year}`);
+      if (sp.fuel) rows.push(`<b>Üzemanyag:</b> ${sp.fuel}`);
+      if (sp.engine) rows.push(`<b>Motor:</b> ${sp.engine}`);
+      if (sp.hp) rows.push(`<b>Teljesítmény:</b> ${sp.hp} LE`);
+      if (sp.transmission) rows.push(`<b>Váltó:</b> ${sp.transmission}`);
+      if (sp.drivetrain) rows.push(`<b>Hajtás:</b> ${sp.drivetrain}`);
+      if (sp.km) rows.push(`<b>Futás:</b> ${fmtPrice(sp.km)} km`);
+      if (sp.color) rows.push(`<b>Szín:</b> ${sp.color}`);
+      if (sp.doors) rows.push(`<b>Ajtók:</b> ${sp.doors}`);
+      if (sp.seats) rows.push(`<b>Ülések:</b> ${sp.seats}`);
+      if (sp.price_huf) rows.push(`<b>Ár:</b> ${fmtPrice(sp.price_huf)} Ft`);
+      if (rows.length) {
+        specsBox.innerHTML = `<div style="display:grid;gap:6px;margin-top:8px;font-size:13px;opacity:.9">${rows.map(r=>`<div>${r}</div>`).join('')}</div>`;
+      }
+
+      function render() {
+        const item = car.gallery[i];
+        img.style.opacity = 0;
+        img.onload = () => (img.style.opacity = 1);
+        img.src = item.src;
+
+        thumbs.innerHTML = '';
+        car.gallery.forEach((g, idx) => {
+          const t = document.createElement('img');
+          t.src = g.src;
+          t.className = idx === i ? 'active' : '';
+          t.addEventListener('click', () => { i = idx; render(); });
+          thumbs.appendChild(t);
+        });
+      }
+
+      lb.querySelector('.prev').onclick = () => { i = (i - 1 + car.gallery.length) % car.gallery.length; render(); };
+      lb.querySelector('.next').onclick = () => { i = (i + 1) % car.gallery.length; render(); };
+      lb.querySelector('.close').onclick = () => document.body.removeChild(lb);
+      lb.addEventListener('click', (e) => { if (e.target === lb) document.body.removeChild(lb); });
+
+      function onKey(e){
+        if (e.key === 'Escape'){ try{document.body.removeChild(lb);}catch{}; window.removeEventListener('keydown', onKey); }
+        if (e.key === 'ArrowLeft'){ lb.querySelector('.prev').click(); }
+        if (e.key === 'ArrowRight'){ lb.querySelector('.next').click(); }
+      }
+      window.addEventListener('keydown', onKey);
+
+      document.body.appendChild(lb);
+      requestAnimationFrame(() => lb.classList.add('open'));
+      render();
+    }
+
+    // Összes autó overlay
+    function openAll(cars) {
+      const lb = document.createElement('div');
+      lb.className = 'lightbox';
+      lb.innerHTML = `
+        <div class="frame allcars">
+          <button class="close" aria-label="Bezárás">✕</button>
+          <h3 style="margin:6px 0 10px 0">Összes autó</h3>
+          <div class="all-grid"></div>
+        </div>
+      `;
+      const gridAll = lb.querySelector('.all-grid');
+      gridAll.style.display = 'grid';
+      gridAll.style.gridTemplateColumns = 'repeat(auto-fit, minmax(180px, 1fr))';
+      gridAll.style.gap = '12px';
+
+      cars.forEach((car) => {
+        const coverUrl = car.cover || (car.id ? `images/cars/${car.id}/cover.jpg` : '');
+        const card = document.createElement('button');
+        card.className = 'car-mini';
+        card.style.height = '140px';
+        card.style.border = '1px solid var(--border)';
+        card.style.borderRadius = '14px';
+        card.style.background = `#0f1624 url('${coverUrl}') center/cover no-repeat`;
+        card.title = car.title || '';
+        card.onclick = () => { document.body.removeChild(lb); openLightbox(car, 0); };
+        gridAll.appendChild(card);
+      });
+
+      lb.querySelector('.close').onclick = () => document.body.removeChild(lb);
+      lb.addEventListener('click', (e) => { if (e.target === lb) document.body.removeChild(lb); });
+      document.body.appendChild(lb);
+      requestAnimationFrame(() => lb.classList.add('open'));
+    }
+
+    // Betöltés cars.php → fallback cars.json
+    const sources = ['cars.php?ts=' + Date.now(), 'cars.json?ts=' + Date.now()];
+    (async () => {
+      let cars = [];
+      for (const url of sources) {
+        try {
+          const r = await fetch(url, { cache: 'no-store' });
+          if (r.ok) { cars = await r.json(); if (Array.isArray(cars) && cars.length) break; }
+        } catch (e) {}
+      }
+
+      // normalizálás (cover + galéria kötelezővé tétele)
+      cars = (cars || []).map(car => {
+        const id = car.id || '';
+        const cover = car.cover || (id ? `images/cars/${id}/cover.jpg` : '');
+        let gallery = Array.isArray(car.gallery) ? car.gallery : [];
+        if (!gallery.length && cover) gallery = [{ src: cover }];
+        const specs = car.specs || {};
+        return { ...car, id, cover, gallery, specs };
+      });
+
+      // rajzolás
+      grid.innerHTML = ''; // kipucoljuk a helyőrző .gal elemeket
+      cars.slice(0, LIMIT).forEach((car) => {
+        const coverUrl = car.cover || (car.id ? `images/cars/${car.id}/cover.jpg` : '');
+        const card = document.createElement('button');
+        card.className = 'gal car-card';
+        card.style.background = `#0f1624 url('${coverUrl}') center/cover no-repeat`;
+        card.style.position = 'relative';
+        card.title = car.title || '';
+        card.onclick = () => openLightbox(car, 0);
+
+        // overlay: évjárat • LE • ár (ha van)
+        const infoText = specLine(car.specs);
+        if (infoText) {
+          const info = document.createElement('div');
+          info.textContent = infoText;
+          info.style.position = 'absolute';
+          info.style.left = '10px';
+          info.style.bottom = '10px';
+          info.style.padding = '6px 10px';
+          info.style.borderRadius = '10px';
+          info.style.fontWeight = '800';
+          info.style.fontSize = '12px';
+          info.style.background = 'rgba(0,0,0,.55)';
+          info.style.color = '#fff';
+          info.style.backdropFilter = 'blur(2px)';
+          info.style.pointerEvents = 'none';
+          card.appendChild(info);
+        }
+
+        grid.appendChild(card);
+      });
+
+      if (cars.length > LIMIT) {
+        const more = document.createElement('a');
+        more.href = '#';
+        more.className = 'gal';
+        more.style.display = 'grid';
+        more.style.placeItems = 'center';
+        more.style.fontWeight = '800';
+        more.textContent = 'Összes autó';
+        more.onclick = (e) => { e.preventDefault(); openAll(cars); };
+        grid.appendChild(more);
+      }
+    })();
+  });
+})();
+</script>
+
+
+</body>
+</html>
+

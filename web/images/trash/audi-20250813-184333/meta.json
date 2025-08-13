@@ -1,0 +1,17 @@
+{
+    "title": "Audi r8",
+    "subtitle": "2018 V8",
+    "specs": {
+        "fuel": "Benzin",
+        "engine": "V8",
+        "hp": 800,
+        "transmission": "Automata",
+        "year": 2018,
+        "km": 800,
+        "color": "szürke",
+        "drivetrain": "Fwd",
+        "doors": 2,
+        "seats": 2,
+        "price_huf": 7000000
+    }
+}

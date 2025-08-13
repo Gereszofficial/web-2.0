@@ -1,0 +1,17 @@
+{
+    "title": "audi",
+    "subtitle": "asd",
+    "specs": {
+        "fuel": "Benzin",
+        "engine": "4.0 V8",
+        "hp": 800,
+        "transmission": "Automata",
+        "year": 2018,
+        "km": 1000,
+        "color": "kék",
+        "drivetrain": "FWD",
+        "doors": 2,
+        "seats": 2,
+        "price_huf": 7000000
+    }
+}
